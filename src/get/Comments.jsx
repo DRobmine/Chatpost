@@ -37,7 +37,7 @@ function Comments({ userId, postId, setShowC }) {
 
   return (
     <>
-    <button className='fixed z-40 right-5 top-5' onClick={() => setShowC(false)}><img src="" alt="" /> dajndan</button>
+    <button className='fixed z-40 right-5 top-5' onClick={() => setShowC(false)}><img src="/close.svg" className='w-10 cursor-pointer' alt="" /></button>
       <Comment postId={postId} />
       <div className="fixed bottom-0 w-full bg-white shadow-lg p-4 z-30">
         <form
